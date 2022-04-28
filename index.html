@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Izzie's Checkboxes</title>
+</head>
+
+<body>
+	<p>Select your fruit:</p>
+	<label for="fruit1">
+		<input type="checkbox" name="fruit" value="banana" id="c1">Banana</label>
+	<label for="fruit2">
+		<input type="checkbox" name="fruit" value="orange" id="c2"> Orange</label>
+	<label for="fruit3">
+		<input type="checkbox" name="fruit" value="grape" id="c3">Grapes</label>
+	<p>
+		<button id="btn">Choose item/s</button>
+	</p>
+
+  <p id="posted-fruit">&nbsp</p>
+<!-- &nbsp is a non-breaking space, just a placeholder.  I find it useful so you can still accurately style the <p id> in CSS even though its lacking the eventual JS value. It's not necessarily "empty", just has invisible char, so it wont change drastically.  the placeholder will already be assuming the given style, ex: text-size -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
